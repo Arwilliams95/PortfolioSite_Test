@@ -92,3 +92,37 @@ li a:hover {
     color: #54a7a3;
     font-family: rift;
     font-size: 1.2em; }
+
+/*------------------------------------------------------------------------------------------- Current Projects ----------------------------------------------------------------------------------------------------------- */
+.cpgallery {
+  width: 75vw;
+  height: 100vh;
+  clear: both;
+  float: right;
+  margin-top: 5vh; }
+
+.banner {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  margin-top: 5vh;
+  z-index: -1; }
+
+.cptitle {
+  width: 75vw;
+  margin: 0;
+  position: relative; }
+  .cptitle h1 {
+    color: #e99dc5;
+    font-family: atziluthscript;
+    font-size: 6em;
+    z-index: 200;
+    position: absolute;
+    top: -130;
+    right: 0; }
+
+.double {
+  width: 43%;
+  height: 50vh;
+  float: left;
+  margin: 5vh; }
