@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'atziluthscript';
+    src: url('fonts/atziluth_script-webfont.woff2') format('woff2'),
+         url('fonts/atziluth_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@import url("https://use.typekit.net/zjy5glp.css");
+
+$sfont: atziluthscript;
+$sanse: rift;
+$pcol: #484e9b;
+$picol:#e99dc5;
+$gcol: #54a7a3;
+
+body {background-color:$pcol; width: 100%; height: 100vh;margin:0; padding: 0;}
+    
+/*------------------------------------------------------------------------------------- Sidebar, Header, Nav -------------------------------------------------------------------------------------------------------------- */ 
+
+sidebar {position: absolute; img{position: relative; width: 80%; margin: 10%; float: left;}}
+
+#lefty{width: 25vw; height: 100vh;margin:0; padding: 0; position: fixed;}
+    
+sidebar{width:25vw; float: left; background-color: white; height:100vh; margin:0; padding: 0;}
+
+ul{ color: $gcol; h3:hover{color: #3f8986;}
+    li{font-family: $sanse; display: block;font-size: 1.4em; }
+    #portfolio{display:block;li{color: $picol;font-size: 1.3em;}}
+    #CurrentProjects{display: none; li{color: $picol;font-size: 1.3em;}} 
+    
+}
+
+li a:hover{color: $pcol;}
+/*------------------------------------------------------------------------------------------- Portfolio ------------------------------------------------------------------------------------------------------------------ */ 
+.gallery {width:45vw;height:auto; float: left; margin-left: 25vw; margin-top: 10vh;}
+.bigpic {width:93%; height: 50vh; background-color: black; margin-left: 3.5%}
+.triple {width:12vw; height: 12vw; background-color: black; float: left; margin:1.5vw;}
+.content {width: 26vw; float: left;  h1{margin-top: 0; color: $picol; font-family: $sanse;margin-top: 10vh;} p {color: white;} span {color: $gcol; font-family: $sanse; font-size: 1.2em;}}

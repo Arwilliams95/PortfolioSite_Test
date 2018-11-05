@@ -1,0 +1,94 @@
+@import url("https://use.typekit.net/zjy5glp.css");
+@font-face {
+  font-family: 'atziluthscript';
+  src: url("fonts/atziluth_script-webfont.woff2") format("woff2"), url("fonts/atziluth_script-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background-color: #484e9b;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0; }
+
+/*------------------------------------------------------------------------------------- Sidebar, Header, Nav -------------------------------------------------------------------------------------------------------------- */
+sidebar {
+  position: absolute; }
+  sidebar img {
+    position: relative;
+    width: 80%;
+    margin: 10%;
+    float: left; }
+
+#lefty {
+  width: 25vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: fixed; }
+
+sidebar {
+  width: 25vw;
+  float: left;
+  background-color: white;
+  height: 100vh;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  color: #54a7a3; }
+  ul h3:hover {
+    color: #3f8986; }
+  ul li {
+    font-family: rift;
+    display: block;
+    font-size: 1.4em; }
+  ul #portfolio {
+    display: block; }
+    ul #portfolio li {
+      color: #e99dc5;
+      font-size: 1.3em; }
+  ul #CurrentProjects {
+    display: none; }
+    ul #CurrentProjects li {
+      color: #e99dc5;
+      font-size: 1.3em; }
+
+li a:hover {
+  color: #484e9b; }
+
+/*------------------------------------------------------------------------------------------- Portfolio ------------------------------------------------------------------------------------------------------------------ */
+.gallery {
+  width: 45vw;
+  height: auto;
+  float: left;
+  margin-left: 25vw;
+  margin-top: 10vh; }
+
+.bigpic {
+  width: 93%;
+  height: 50vh;
+  background-color: black;
+  margin-left: 3.5%; }
+
+.triple {
+  width: 12vw;
+  height: 12vw;
+  background-color: black;
+  float: left;
+  margin: 1.5vw; }
+
+.content {
+  width: 26vw;
+  float: left; }
+  .content h1 {
+    margin-top: 0;
+    color: #e99dc5;
+    font-family: rift;
+    margin-top: 10vh; }
+  .content p {
+    color: white; }
+  .content span {
+    color: #54a7a3;
+    font-family: rift;
+    font-size: 1.2em; }
