@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'atziluthscript';
-    src: url('fonts/atziluth_script-webfont.woff2') format('woff2'),
-         url('fonts/atziluth_script-webfont.woff') format('woff');
+    src: url('fonts/Atziluth-Script.woff') format('woff2'),
+         url('fonts/Atziluth-Script.woff2') format('woff');
     font-weight: normal;
     font-style: normal;}
 
@@ -24,7 +24,7 @@ sidebar {position: absolute; img{position: relative; width: 80%; margin: 10%; fl
     
 sidebar{width:25vw; float: left; background-color: white; height:100vh; margin:0; padding: 0;}
 
-ul{ color: $gcol; h3:hover{color: #3f8986;}
+ul{ color: $gcol; a{color: $picol; text-decoration: none; } h3:hover{color: #3f8986;}
     li{font-family: $sanse; display: block;font-size: 1.4em; }
     #portfolio{display:block;li{color: $picol;font-size: 1.3em;}}
     #CurrentProjects{display: none; li{color: $picol;font-size: 1.3em;}} 
@@ -40,6 +40,7 @@ li a:hover{color: $pcol;}
 
 /*------------------------------------------------------------------------------------------- Current Projects ----------------------------------------------------------------------------------------------------------- */
 .cpgallery {width: 75vw; height: 100vh; clear: both; float: right; margin-top: 5vh;}
-.banner {width: 100%; height:40vh; background-color: black; margin-top: 5vh;z-index: -1;}
-.cptitle {width: 75vw; margin: 0;position: relative;  h1{color: $picol; font-family: $sfont; font-size: 6em;  z-index: 200; position: absolute; top:-130; right:0;}}
-.double {width: 43%; height: 50vh; float: left; margin: 5vh;}
+.banner {width: 100%; height:40vh; background-color: black; margin-top: 5vh;z-index: -1;position: relative}
+.cptitle {width: 75vw; margin: 0;position: relative;  h1{color: $picol; font-family: $sfont; font-size: 6em;  z-index: 200; position: absolute; right:0; margin-top:-60px;margin-right: 3vw;}}
+.double {width: 43%; height: 50vh; float: left; margin: 5vh;p {color: white;} span {color: $gcol; font-family: $sanse; font-size: 1.2em;}}
+.spacer{clear: both; height: 40px; }

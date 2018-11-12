@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/zjy5glp.css");
 @font-face {
   font-family: 'atziluthscript';
-  src: url("fonts/atziluth_script-webfont.woff2") format("woff2"), url("fonts/atziluth_script-webfont.woff") format("woff");
+  src: url("fonts/Atziluth-Script.woff") format("woff2"), url("fonts/Atziluth-Script.woff2") format("woff");
   font-weight: normal;
   font-style: normal; }
 body {
@@ -37,6 +37,9 @@ sidebar {
 
 ul {
   color: #54a7a3; }
+  ul a {
+    color: #e99dc5;
+    text-decoration: none; }
   ul h3:hover {
     color: #3f8986; }
   ul li {
@@ -106,7 +109,8 @@ li a:hover {
   height: 40vh;
   background-color: black;
   margin-top: 5vh;
-  z-index: -1; }
+  z-index: -1;
+  position: relative; }
 
 .cptitle {
   width: 75vw;
@@ -118,11 +122,22 @@ li a:hover {
     font-size: 6em;
     z-index: 200;
     position: absolute;
-    top: -130;
-    right: 0; }
+    right: 0;
+    margin-top: -60px;
+    margin-right: 3vw; }
 
 .double {
   width: 43%;
   height: 50vh;
   float: left;
   margin: 5vh; }
+  .double p {
+    color: white; }
+  .double span {
+    color: #54a7a3;
+    font-family: rift;
+    font-size: 1.2em; }
+
+.spacer {
+  clear: both;
+  height: 40px; }
