@@ -11,6 +11,16 @@ body {
   margin: 0;
   padding: 0; }
 
+html {
+  scroll-behavior: smooth; }
+
+.fullPg {
+  width: 98vw;
+  height: 100vh;
+  background-color: black;
+  clear: both;
+  float: right; }
+
 /*------------------------------------------------------------------------------------- Sidebar, Header, Nav -------------------------------------------------------------------------------------------------------------- */
 sidebar {
   position: absolute; }
@@ -38,7 +48,6 @@ sidebar {
 ul {
   color: #54a7a3; }
   ul a {
-    color: #e99dc5;
     text-decoration: none; }
   ul h3:hover {
     color: #3f8986; }
@@ -66,7 +75,7 @@ li a:hover {
   height: auto;
   float: left;
   margin-left: 25vw;
-  margin-top: 10vh; }
+  padding-top: 10vh; }
 
 .bigpic {
   width: 93%;
@@ -120,6 +129,7 @@ li a:hover {
     color: #e99dc5;
     font-family: atziluthscript;
     font-size: 6em;
+    font-weight: 500;
     z-index: 200;
     position: absolute;
     right: 0;
@@ -141,3 +151,28 @@ li a:hover {
 .spacer {
   clear: both;
   height: 40px; }
+
+/*------------------------------------------------------------------------------------------- Waypoints ------------------------------------------------------------------------------------------------------------------ */
+.proj1 {
+  color: #e99dc5; }
+
+.proj2 {
+  color: #e99dc5; }
+
+.proj3 {
+  color: #e99dc5; }
+
+.proj4 {
+  color: #e99dc5; }
+
+.proj5 {
+  color: #e99dc5; }
+
+.proj6 {
+  color: #e99dc5; }
+
+.proj7 {
+  color: #e99dc5; }
+
+.highlight {
+  color: #484e9b; }
